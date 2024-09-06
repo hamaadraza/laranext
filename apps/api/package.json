@@ -1,0 +1,15 @@
+{   
+    "name": "api",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "php artisan serve",
+        "build": "composer install && php artisan config:clear && php artisan optimize"
+    },
+    "devDependencies": {
+        "axios": "^1.7.4",
+        "laravel-vite-plugin": "^1.0",
+        "vite": "^5.0"
+    }
+}
